@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cadastro de pessoas</title>
+  </head>
+  <body>
+
+    <h1>Dados do cadastro</h1>
+
+    <form method="post" action="validar.html">
+
+      <label for="nome">Nome</label>
+      <input type="text" name="nome" placeholder="Nome da pessoa"><br>
+
+      <label for="endereco">Endereço</label>
+      <input type="text" name="endereco" placeholder="Nome da rua"><br>
+
+      <label for="telefone">Telefone</label>
+      <input type="text" name="telefone" placeholder="Utilize o formato (99) 9999-9999"><br>
+
+      <label>Gênero</label><br>
+        <input type="radio" id="masculino" name="genero" value="M">
+        <label for="masculino">Masculino</label><br>
+
+        <input type="radio" id="feminino" name="genero" value="F">
+        <label for="feminino">Feminino</label><br>
+
+        <input type="radio" id="naobinario" name="genero" value="nb">
+        <label for="naobinario">Nao Binario</label><br>
+
+        <label for="area">Area de interesse</label><br>
+        <input type="checkbox" id="web" name="area[0]">
+        <label for="web">Desenvolvimento Web</label><br>
+
+        <input type="checkbox" id="otimizacao" name="area[1]">
+        <label for="otimizacao">Otimização</label><br>
+
+        <input type="checkbox" id="bd" name="area[2]">
+        <label for="bd">Banco de Dados</label><br>
+
+        <label for="cidade">      Cidade    </label><select name="cidade">
+          <option value="0">Selecione</option>
+          <option value="56">Joao Monlevade</option>
+          <option value="64">Itabira</option>
+          <option value="33">Alvinópolis</option>
+          <option value="27">Belo Horizonte</option>
+          <option value="48">Itauna</option></select>
+        <br>
+        <br>
+        <label for="Usuario">Usuario</label>
+
+        <input type="text" name="usuario">
+        <label for="senha">Senha   </label>
+        <input type="password" name="senha"><br>
+
+        <input type="submit" value="Cadastrar" name="cadastro">
+        <input type="reset" value="Limpar" name="Limpar">
+
+
+    </form>
+<a href="intro.html">Voltar
+
+  </body>
+</html>
