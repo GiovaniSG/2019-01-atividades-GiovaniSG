@@ -1,0 +1,68 @@
+#alt {
+  font-size: 14pt;
+}
+
+#formulario{
+  font-size: 18pt;
+  font-family: Tahoma;
+}
+select{
+  font-family: tahoma;
+  font-size: 16pt;
+}
+input[type="text"]{
+  background-color: #c6c6c6;
+  border: 1px solid black;
+  border-radius: 8px;
+  text-align: center;
+}
+input[type="text"]:focus{
+  background-color: white;
+  border-radius: 0px;
+  border-color: gray;
+}
+fieldset{
+  width:50%;
+}
+h1{
+  font-family: tahoma;
+  text-align: center;
+  color: Blue;
+}
+h2{
+  color: lightblue;
+}
+p{
+  text-align: center;
+}
+a{
+  font-size: 14pt;
+  text-decoration: none;
+  color: #ad3255;
+  background-color: cornsilk;
+}
+a:visited {
+  color: violet;
+  background-color: none;
+}
+h6{
+  text-align:center;
+  font-size: 10pt;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+input{
+  font-size: 12pt;
+}
+
+table{
+  text-align: center;
+  width: 80%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tbody tr:nth-child(2n-1){
+  background-color: gray;
+}

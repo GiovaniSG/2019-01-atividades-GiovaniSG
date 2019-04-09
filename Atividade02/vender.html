@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="cascadestylesheet.css">
+    <title>Vender Produtos</title>
+  </head>
+  <body>
+    <div id="formulario">
+      <form action="validar.html" method="post">
+        <fieldset>
+          <legend><h1>Vender</h1></legend>
+          <label for="produtos">Produtos</label>
+          <select name="produtos">
+            <option value="0">Selecione</option>
+            <option value="1">Chrono Trigger-Nintendo DS</option>
+            <option value="2">Legend of Zelda: Ocarina of Time 3D - Nintendo 3DS</option>
+            <option value="3">Legend of Zelda: Breath of The Wild Master Edition + Nintendo Switch</option>
+            <option value="4">DVD Bojack Horseman Temporadas 1 a 3</option>
+            <option value="3">DVD Rick and Morty Primeira Temporada</option>
+          </select><br><br>
+          <label>Modo de Pagamento</label>
+            <input type="radio" name="modo" id="boleto" value="bol">
+            <label for="boleto">Boleto Bancario</label>
+            <input type="radio" name="modo" id="cartao" value="cartao">
+            <label for="cartao">Cartao de Crédito</label>
+            <br><br>
+
+            <label for="cep">CEP</label>
+            <input type="text" name="cep" placeholder="00000-000"><br><br>
+        </fieldset>
+      </form>
+    </div>
+<input type="submit" name="confirmar" value="Confirmar">
+  </body>
+</html>
