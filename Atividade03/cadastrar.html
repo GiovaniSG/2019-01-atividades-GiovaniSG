@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Cadastrar Produto</title>
+  </head>
+  <body>
+    <div>
+      <form action="index.html" method="post">
+        <fieldset>
+          <legend><h1>Cadastro de Produtos</h1></legend>
+          <label for="nome">Nome</label>
+            <input type="text" name="nome" class="form-control form-control-sm"  placeholder="Nome do produto"><br><br>
+          <label for="Peso">Peso</label>
+            <input type="text" name="peso"placeholder="0.00 Kg"><br><br>
+          <label for="valor">Valor</label>
+            <input type="text" name="Valor" placeholder="R$ 0,00"><br><br>
+          <label for="estoque">Estoque</label>
+            <input type="text" name="estoque" placeholder="0"><br><br>
+          <label>Mercado</label>
+            <input type="radio" name="mercado" id="int" value="int">
+            <label for="int">Interno</label>
+            <input type="radio" name="mercado" id="ext" value="ext">
+            <label for="ext">Externo</label>
+            <br><br>
+
+            <label for="fornecedor">  Fornecedor   </label>
+            <select class="custom-select"  name="fornecedor">
+              <option value="0">Selecione</option>
+              <option value="1">Fornecedor 1</option>
+              <option value="2">Fornecedor 2</option>
+              <option value="3">Fornecedor 3</option>
+              <option value="4">Fornecedor 4</option>
+              <option value="5">Fornecedor 5</option>
+            </select>
+              <br><br>
+          <input type="submit" class="btn btn-info" value="Cadastrar" name="cadastro">
+          <input type="reset" value="Limpar" class="btn btn-info" name="Limpar">
+
+        </fieldset>
+    </form>
+  </div>
+  </body>
+</html>
