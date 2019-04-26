@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Validar formulario</title>
+</head>
+<body>
+
+	<form name="dados">
+		
+		<div id="grupo1">
+			<label for="valor1">VALOR 1</label>
+			<input type="text" name="valor1">
+
+			<div id="alerta1" style="display: none">
+				<h3>Preencha o primeiro valor corretamente</h3>
+			</div>
+		</div>
+		
+		<input type="text" name="valor2">
+		<input type="text" name="resultado">
+
+
+
+		<button type="button" onclick="calcular()">Calcular</button>
+
+	</form>
+	<script src="form.js"></script>
+
+</body>
+</html>

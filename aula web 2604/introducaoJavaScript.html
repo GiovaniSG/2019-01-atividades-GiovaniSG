@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Introdução ao JS</title>
+
+     <script> 
+      function exibirDados(){
+        document.getElementById("data").innerHTML = "Agora são:" + Date();
+        var nome = window.prompt("insira o seu nome");
+        document.getElementById("nome").innerHTML = nome;
+        window.alert("dados atualizados cm sucesso!");
+      }
+    </script>
+
+
+
+  </head>
+  <body>
+
+    <script>
+      document.write("Hello, world!");
+    </script>
+
+
+
+    <p id="data">Data</p>
+    <p id="nome">Nome</p>
+
+    <button type="button" onclick="exibirDados()">Exibir</button>
+
+   
+
+    <script>
+      console.log("Documento carregado");
+    </script>
+
+  </body>
+</html>
